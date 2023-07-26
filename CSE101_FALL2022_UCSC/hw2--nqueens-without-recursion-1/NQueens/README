@@ -1,0 +1,35 @@
+README for HW2
+
+Gabriel Gorospe
+Oct 24, 2022
+CSE101, C. Seshadhri
+
+nqueens.cpp
+Description:
+The file nqueens.cpp has two main helper functions which are used to
+solve the NQueens problem. The findQueenRows function takes a string
+from a line of the input file and outputs a stack representing the columns
+and rows representing a solution of the problem. The function uses stack
+recursion to iterate through all permutations of the Queen positions by 
+iterating through all permutations of rows until a solution is found. 
+The validInsert function validates whether the positioning of the next 
+row for the next permutation is valid.
+
+Executable:
+- nqueens
+Source:
+- nqueens.cpp
+
+Text:
+- in.txt/out.cpp 
+- simple-input.txt/simple-outpt.txt, more-input.txt/more-output.txt (class provided txt files for testing nqueens.cpp)
+Description:
+Input/output files
+
+Makefile 
+Usage:
+1. run "make," to get executable "nqueens"
+2. run "./nqueens <INPUT FILE> <OUTPUT FILE>"
+
+Citations:
+Used allAnagrams function in StackRecursion test study guide as a blueprint for the function findQueenRows in nqueens.cpp

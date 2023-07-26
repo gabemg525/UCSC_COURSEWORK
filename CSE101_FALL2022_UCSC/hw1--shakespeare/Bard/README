@@ -1,0 +1,51 @@
+README for HW1
+
+Gabriel Gorospe
+Oct 14, 2022
+CSE101, C. Seshadhri
+
+Disclaimer: I am resubmitting this assignment after seeing that I had 
+access to my code from my last time I took this course, I simply copied
+that code, that is why most of the code is copy pasted. I mentioned this 
+to Eren who said it fell under logical errors.
+
+Description
+
+The folder Bard contains the source and header files 
+for a linkedlist ADT which has a few functions to handle 
+the sorting of words in text files by length and rank. 
+The bard.cpp source file uses the linkedlist ADT to create 
+an executable file, bard, which handles formatted input and 
+output files.
+
+The insert function in linkedlist.cpp was made to sort rank
+using the data element freq and sorting lexicographically.
+bard.cpp creates a LinkedList array which is a series of LinkedLists
+separated by length.
+
+
+Files
+
+Executable:
+- bard
+Source:
+- bard.cpp
+- linkedlist.cpp
+Header:
+- linkedlist.h
+Testing:
+- testclient.cpp (used for personal testing of linkedlist.cpp)
+Text:
+- input.txt/output.cpp (used by testclient.cpp)
+- simple-input.txt/simple-outpt.txt, more-input.txt/more-output.txt (class provided txt files for testing bard.cpp
+Makefile 
+
+
+Usage
+1. run "make," to get executable "bard"
+2. run "./bard <INPUT FILE> <OUTPUT FILE>"
+To use testclient, the Makefile was edited to handle it
+
+Citations:
+Used Sesh's LinkedList code for print, find, and length functions as well as
+for defining Node struct and LinkedList class.
