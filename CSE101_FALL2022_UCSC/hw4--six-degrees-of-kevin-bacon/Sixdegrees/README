@@ -1,0 +1,46 @@
+README for HW4
+
+Gabriel Gorospe
+Nov 27, 2022
+CSE101, C. Seshadhri
+
+Source files:
+sixdegrees.cpp
+Description:
+Main file which takes a file of multiple pairs of actors and outputs the shortest path from one to the other based on the 
+cleaned_movielist.txt movies.
+
+graph.cpp
+- Takes line by line strings which represent a movie and the starring actors to update an existing graph data structure. The 
+graph is represented as an unordered map of actors and Nodes which include the adjacency list of the actor (stored in another
+unordered map), and the name of the movie on the shortest path when BFS is run.
+- BFS function to find shortest path between two actors by setting the path of each Node from source to Nodes in a breadth first
+search. Once the Node of the actor being searched for is found, the path from the found actor to the source actor is returned. 
+If a path is not found or one of the actors is not in the graph, "Not present" is returned.
+
+node.cpp
+- node class used by the unordered map graph data structure. 
+- field which is an unordered map representing the adjacency list of the actor where each actor key has a movie value for the 
+movie of the adjacent actor
+- field which is a parent node pointer which is set while BFS is run
+- fields which are set to the movie and the node's actor on the shortest path when BFS is run
+- field which indicates whether a node has been visited or not used in BFS.
+
+Executable:
+- sixdegrees
+
+Text:
+- myin.txt/myout.cpp 
+personally customized input/output files
+- simple-input.txt/simple-outpt.txt, more-input.txt/more-output.txt (class provided txt files for testing nqueens.cpp)
+Description:
+Input/output files
+
+Makefile 
+Usage:
+1. run "make," to get executable "sixdegrees"
+2. run "./sixdegrees <INPUT FILE> <OUTPUT FILE>"
+
+Citations:
+geeksforgeeks.org unordered_map guides
+My HW1 code used as an example for file handling
