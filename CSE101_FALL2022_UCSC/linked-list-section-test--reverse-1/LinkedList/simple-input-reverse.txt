@@ -1,0 +1,155 @@
+i 100
+i 90
+i 80
+i 70
+i 60
+i 50
+i 40
+i 30
+i 20
+i 10
+p
+rev 1
+p
+rev 2
+p
+rev 3
+p
+rev 4
+p
+rev 5
+p
+rev 6
+p
+dr 10
+p
+dr 60
+p
+dr 20
+p
+dr 100
+p
+dk 30 1
+p
+dk 40 1
+p
+i 50
+i 50
+i 60
+i 50
+i 70
+p
+dk 50 4
+p
+dk 70 2
+p
+dk 70 1
+p
+dk 70 1
+p
+dk 90 1
+p
+dl 50
+p
+dl 50
+p
+dl 90
+p
+dl 60
+p
+dl 80
+p
+dl 50
+p
+i 90
+i 90
+i 90
+i 80
+i 70
+i 60
+i 90
+i 90
+i 90
+i 10
+i 20
+i 10
+i 10
+i 10
+i 10
+i 20
+i 10
+p
+abf 10
+p
+abf 20
+p
+abf 90
+p
+dr 10
+dr 20
+dr 90
+dr 60
+dr 70
+dr 80
+
+i 80
+i 70
+i 20
+i 10
+i 10
+i 20
+i 70
+i 80
+p
+isp
+dr 10
+p
+isp
+dup
+p
+i 80
+i 70
+i 70
+i 20
+i 10
+i 10
+i 20
+i 70
+i 70
+i 70
+i 80
+p
+dup
+p
+dr 80
+dr 70
+dr 20
+dr 10
+i 80
+i 90
+i 70
+i 90
+i 70
+i 20
+i 10
+i 10
+i 20
+i 70
+i 70
+i 70
+i 90
+i 90
+i 90
+i 90
+i 90
+
+p
+dup
+p
+dr 90
+dr 70
+dr 20
+dr 10
+dr 80
+dup
+p
