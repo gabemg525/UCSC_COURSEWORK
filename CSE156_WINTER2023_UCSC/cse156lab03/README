@@ -1,0 +1,14 @@
+Gabriel Gorospe
+SID: 1696580
+Lab03 Due Feb 17, 2023
+
+Makefile
+- creates executable files for myserver.c and myclient.c
+
+myserver.c
+- implements server for simple reliable file transfer. Can handle one or 
+more clients at once, receive packets and responds with ACK's
+
+myclient.c
+- implements client for simple file transfer. Sends data in packets and 
+receives ACK's.
