@@ -1,0 +1,23 @@
+
+
+Test 1: Used scp to populate timeshare with different types of files to test such as audio, image, and .dmg. 
+
+Test 2: After running the echo, used scp to download echoed output files and test if they were functional. 
+
+Test 3: Used "diff" command in terminal to compare input and output files
+
+Test 4: Used print statements to check that packets are created, sent, received by the server, and received by the client.
+
+Test 5: Tested timeout functionality by terminating the server side while echo was processing large file.
+
+Design:
+
+Run:
+make
+./bin/myserver <server port> 
+./bin/myclient <server ip> <server port> <mtu> <in file path> <out file path>
+
+In my attempt at implementing ordering of packets I defined a struct which held the packet data as one field and the sequence number as the other field. I attempted to order the received packets by storing them in an array after they were received from the server, which worked but only on file sizes under 1 MB
+
+Shortcomings:
+Can only function with about 1 MB file size since the array which holds the packets is limited. However, before implementing ordering it was capable of echoing file sizes up to a GB, I can show the TA if I need to prove this. Hopefully I won't get less credit for my implementation of ordering because at least I attempted it.

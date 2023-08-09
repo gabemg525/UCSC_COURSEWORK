@@ -1,0 +1,11 @@
+Test Cases
+- placed test print statements after each block of code, 5 total,
+    checking that each block would run
+- ran "./bin/myweb www.example.com 93.184.216.34/index.html" to test that
+    default port GET request works
+- ran GET request and HEAD request on pudim.br.com to test another server
+- used "curl www.example.com > bin/curl_output" and compared curl_output
+    and the output of myweb by running "diff curl_output output.dat" in 
+    the bin directory
+- placed error checks to see if socket functions were working
+- Don't have a test case for different ports, only for port 80

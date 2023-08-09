@@ -1,0 +1,19 @@
+Gabriel Gorospe
+SID: 1696580
+Lab03 Due March 2, 2023
+
+Makefile
+- creates executable files for myserver.c and myclient.c
+
+myserver.c
+- implements server for simple reliable file replication. Can handle one or 
+more clients at once, receive packets and responds with ACK's
+
+myclient.c
+- implements client for simple reliable file replication. Sends data in packets and 
+receives ACK's. Can send packets to multiple servers at once.
+
+myclientserver.h
+- implements helper functions used by both the client and the server including RFC time
+calculator, a time delay function, a random percentage generator, and a function which
+creates file paths.

@@ -1,0 +1,9 @@
+Gabriel Gorospe
+ID: 1696580
+
+myclient.c: client side of file echo program. Sends packets with sequence 
+numbers to server and stores received packets in an array based on 
+sequence number. Using the array, packets are then written in order to the 
+output file.
+ 
+myserver.c: server side. Receives and sends packets to client.
