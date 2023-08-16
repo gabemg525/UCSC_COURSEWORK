@@ -1,0 +1,1 @@
+bisection(0,24,10^(-4),@func)
